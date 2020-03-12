@@ -1,24 +1,22 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
+description: 无巧不成书
 keywords: Sandy Lai, Sandy
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-This is Sandy。
+「万物皆可弃」
 
-仰慕「万物皆可弃」。
+过去心不可得，
+现在心不可得，
+未来心不可得。
 
-努力奔跑，定能逃离地球。
+「牛顿的万有引力定律」
+只要我跑快，定能逃离地球。
 
-## 联系
-
-{% for website in site.data.social %}
-* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
-{% endfor %}
 
 ## Skill Keywords
 
@@ -29,4 +27,11 @@ This is Sandy。
 <button class="btn btn-outline" type="button">{{ keyword }}</button>
 {% endfor %}
 </div>
+{% endfor %}
+
+
+## 联系
+
+{% for website in site.data.social %}
+* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}

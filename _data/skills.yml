@@ -1,19 +1,30 @@
+- name: Front End Engineer
+  keywords:
+      - Vue.js
+      - Bootstrap
+      - ExtJS
+      - HTML
+      - CSS
+      - JavaSctript
+      - Element
+
 - name: Software Engineer Keywords
   keywords:
       - Java
-      - C++
+      - Ruby
       - Python
-      - Design Patterns
+      - C
 
-- name: Mobile Developer Keywords
+- name: Data Base Keywords
   keywords:
-      - Android
-      - Reverse Engineering
+      - MySQL
+      - Redis
 
-- name: Windows Developer Keywords
+- name: Other Keywords
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - Linux
+      - Git
+      - Docker
+      - Nginx
+      - Apache Tomcat
+      - Mac
