@@ -4,7 +4,7 @@
 baseurl:
 url: https://dovesandy.github.io
 date_format: "ordinal"
-title: Sandy
+title: Blog Of Sandy
 subtitle: "Sandy想到月球看看奶奶"
 description: "Sandy个人博客"
 keywords: Sandy
@@ -98,14 +98,14 @@ gitment:
     owner: 
     repo: 
     oauth:
-        client_id: 
-        client_secret: 
+    client_id: 
+    client_secret: 
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: Sandy
+    owner: dovesandy
     repo: dovesandy.github.io
-    clientID: 
-    clientSecret: 
+    clientID: 1446340408f6c2e4f189
+    clientSecret: 61c1fc2c4930c58eafd0e2df02cf49716e878826
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
