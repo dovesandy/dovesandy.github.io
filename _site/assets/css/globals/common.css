@@ -721,3 +721,8 @@ pre {
 .tools-wrapper .gotop {
   display: none;
 }
+
+.picture-img{
+  width: 320px; 
+  margin: 1px;
+}

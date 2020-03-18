@@ -47,6 +47,13 @@
   
   
   
+    {
+      "title"    : "Picture",
+      "url"      : "http://localhost:4000/picture/"
+    } ,
+  
+  
+  
   
   
     {
@@ -66,13 +73,6 @@
 
   
     {
-      "title"    : "一份简明的 Base64 原理解析（本文测试）",
-      "category" : "Java",
-      
-      "url"      : "http://localhost:4000/2020/03/07/get-an-in-depth-understanding-of-base64/"
-    } ,
-  
-    {
       "title"    : ".gitignore让git推送时候忽略不必要推送的文件",
       "category" : "Git",
       
@@ -84,6 +84,41 @@
       "category" : "Git",
       
       "url"      : "http://localhost:4000/2020/03/12/start-jekyll-error/"
+    } ,
+  
+    {
+      "title"    : "talk about Sex.Education season 2",
+      "category" : "Film",
+      
+      "url"      : "http://localhost:4000/2020/03/15/css-box-model/"
+    } ,
+  
+    {
+      "title"    : "CSS中的float（浮动）的用法",
+      "category" : "CSS",
+      
+      "url"      : "http://localhost:4000/2020/03/15/css-float/"
+    } ,
+  
+    {
+      "title"    : "talk about Sex.Education season 2",
+      "category" : "Film",
+      
+      "url"      : "http://localhost:4000/2020/03/15/css-positionig/"
+    } ,
+  
+    {
+      "title"    : "talk about Sex.Education season 1",
+      "category" : "Film",
+      
+      "url"      : "http://localhost:4000/2020/03/15/film-sex-education-season-one/"
+    } ,
+  
+    {
+      "title"    : "talk about Sex.Education season 2",
+      "category" : "Film",
+      
+      "url"      : "http://localhost:4000/2020/03/15/film-sex-education-season-two/"
     } ,
   
     {

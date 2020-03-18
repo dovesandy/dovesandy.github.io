@@ -25,4 +25,15 @@ log/*           //忽略log下的所有文件
 css/*.css       //忽略css目录下的.css文件
 
 ```
+> 比如我要忽略Gemfile.lock
+
+```javascript
+Gemfile.lock
+```
+> 执行命令查看是否已经忽略该文件
+```javascript
+git status
+```
+
+
 ![](/images/posts/git/gitignore1.png)

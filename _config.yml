@@ -39,6 +39,9 @@ navs:
 #     label: 归档
 
   -
+    href: /picture/
+    label: 图片
+  -
     href: /wiki/
     label: 维基
 
