@@ -8,7 +8,7 @@ menu: 图片
 permalink: /picture/
 ---
 
-<p>以下所有的画，均出自一个美丽的画手</p>
+<p>以下所有的画，均出自一位美丽的画手</p>
 「桃子夏」
 
 <img class="picture-img" src="../images/posts/meilin/1.jpg"/>
