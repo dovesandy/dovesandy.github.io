@@ -87,27 +87,6 @@
     } ,
   
     {
-      "title"    : "CSS中对盒子模型的理解",
-      "category" : "Film",
-      
-      "url"      : "http://localhost:4000/2020/03/15/css-box-model/"
-    } ,
-  
-    {
-      "title"    : "CSS中的float（浮动）的用法",
-      "category" : "CSS",
-      
-      "url"      : "http://localhost:4000/2020/03/15/css-float/"
-    } ,
-  
-    {
-      "title"    : "在position属性中的绝对定位和相对定位的理解",
-      "category" : "Film",
-      
-      "url"      : "http://localhost:4000/2020/03/15/css-positionig/"
-    } ,
-  
-    {
       "title"    : "talk about Sex.Education season 1",
       "category" : "Film",
       
@@ -119,6 +98,34 @@
       "category" : "Film",
       
       "url"      : "http://localhost:4000/2020/03/15/film-sex-education-season-two/"
+    } ,
+  
+    {
+      "title"    : "CSS中对盒子模型的理解",
+      "category" : "CSS",
+      
+      "url"      : "http://localhost:4000/2020/03/16/css-box-model/"
+    } ,
+  
+    {
+      "title"    : "CSS中的float（浮动）的用法",
+      "category" : "CSS",
+      
+      "url"      : "http://localhost:4000/2020/03/16/css-float/"
+    } ,
+  
+    {
+      "title"    : "在position属性中的绝对定位和相对定位的理解",
+      "category" : "CSS",
+      
+      "url"      : "http://localhost:4000/2020/03/16/css-positionig/"
+    } ,
+  
+    {
+      "title"    : "Damned girl Encyclopedia",
+      "category" : "Film",
+      
+      "url"      : "http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/"
     } ,
   
     {

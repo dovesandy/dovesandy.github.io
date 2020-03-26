@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 在position属性中的绝对定位和相对定位的理解
-categories: Film
-description: Sex.Education
-keywords: Sex.Education
+categories: CSS
+description: CSS
+keywords: CSS
 ---
 
 
