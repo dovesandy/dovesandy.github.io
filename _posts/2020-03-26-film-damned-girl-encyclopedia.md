@@ -19,5 +19,5 @@ Mebae who is a Japanese writer.
 The first time i saw her in zhihu,but i am sorry that i knewn her name just few days ago!!! I use her as an avator of github!!! Just she is beautiful and i feel  she is speacial girl
 ![](/images/posts/film/damned-girl-encyclopedia/1.jpg)
 
-## 3. more story
+## 3. More story
 - <https://baijiahao.baidu.com/s?id=1600330807299784186&wfr=spider&for=pc>

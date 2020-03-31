@@ -1,4 +1,125 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-26T17:12:10+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog Of Sandy</title><subtitle>Sandy个人博客</subtitle><author><name>Sandy</name></author><entry><title type="html">Damned girl Encyclopedia</title><link href="http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/" rel="alternate" type="text/html" title="Damned girl Encyclopedia" /><published>2020-03-26T00:00:00+00:00</published><updated>2020-03-26T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia</id><content type="html" xml:base="http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/">&lt;p&gt;Damned girl Encyclopedia who was born in Japan on August 9 2016.Chinese name is 「骂倒少女」.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-31T16:57:08+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog Of Sandy</title><subtitle>Sandy个人博客</subtitle><author><name>Sandy</name></author><entry><title type="html">Git的常用命令记录</title><link href="http://localhost:4000/2020/03/31/git-command/" rel="alternate" type="text/html" title="Git的常用命令记录" /><published>2020-03-31T00:00:00+00:00</published><updated>2020-03-31T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/31/git-command</id><content type="html" xml:base="http://localhost:4000/2020/03/31/git-command/">&lt;p&gt;记录一些常用的Git 常用的命令&lt;/p&gt;
+
+&lt;h2 id=&quot;1-初始化本地仓库&quot;&gt;1. 初始化本地仓库&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;想把当前文件夹作为git仓库时使用&lt;/p&gt;
+  &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-在文件中新建readmemd文件推送到本地仓库&quot;&gt;2. 在文件中新建README.md文件推送到本地仓库&lt;/h2&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add README.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;3-在github上初始化一个工程时候分为两种情况&quot;&gt;3. 在GitHub上初始化一个工程时候，分为两种情况&lt;/h2&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 新建的项目&lt;/span&gt;
+…or create a new repository on the &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;line
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;# IU&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; README.md
+git init
+git add README.md
+git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;first commit&quot;&lt;/span&gt;
+git remote add origin git@github.com:dovesandy/IU.git
+git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master
+
+&lt;span class=&quot;c&quot;&gt;# 合并的项目            &lt;/span&gt;
+…or push an existing repository from the &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;line
+git remote add origin git@github.com:dovesandy/IU.git
+git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;4-查看分支&quot;&gt;4. 查看分支&lt;/h2&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 查看本地分支，带*的为当前分支&lt;/span&gt;
+git branch
+
+&lt;span class=&quot;c&quot;&gt;# 查看远程分支&lt;/span&gt;
+git branch &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 查看所有分支&lt;/span&gt;
+git branch &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;6-切换到master分支&quot;&gt;6. 切换到master分支&lt;/h2&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;7-合并devolopment分支&quot;&gt;7. 合并devolopment分支&lt;/h2&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 先切换回要并入的分支&lt;/span&gt;
+git checkout master
+
+&lt;span class=&quot;c&quot;&gt;# 从development合入到master分支&lt;/span&gt;
+git merge development
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;8-撤消上一次commit的内容该操作会彻底回退到某个版本本地的源码也会变为上一个版本的内容&quot;&gt;8. 撤消上一次commit的内容(该操作会彻底回退到某个版本，本地的源码也会变为上一个版本的内容)&lt;/h2&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 先查看日志版本信息&lt;/span&gt;
+git log
+
+&lt;span class=&quot;c&quot;&gt;# 退回到8d8e5ccf24cf6836ab780aa3860270c3876e825a版本&lt;/span&gt;
+git reset &lt;span class=&quot;nt&quot;&gt;--hard&lt;/span&gt; 8d8e5ccf24cf6836ab780aa3860270c3876e825a
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;9-推送到本地仓库&quot;&gt;9. 推送到本地仓库&lt;/h2&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c&quot;&gt;# 推动到本地&lt;/span&gt;
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 添加注释&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; 注释换行
+
+&lt;span class=&quot;c&quot;&gt;# git commit -m 注释可以通过单引号来换行，比如：&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'
+&amp;gt; 1.aaaaa
+&amp;gt; 2.bbbb
+&amp;gt; '&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 通过git commit --amend 命令可以查看到刚刚的log信息为&lt;/span&gt;
+
+1.aaaaa
+2.bbbb
+
+&lt;span class=&quot;c&quot;&gt;# 推送到远程仓库&lt;/span&gt;
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Sandy</name></author><summary type="html">记录一些常用的Git 常用的命令</summary></entry><entry><title type="html">Vue的了解</title><link href="http://localhost:4000/2020/03/31/vue-about/" rel="alternate" type="text/html" title="Vue的了解" /><published>2020-03-31T00:00:00+00:00</published><updated>2020-03-31T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/31/vue-about</id><content type="html" xml:base="http://localhost:4000/2020/03/31/vue-about/">&lt;h2 id=&quot;1-vuejs的创建者尤雨溪&quot;&gt;1. Vue.js的创建者–尤雨溪&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2014年2月，Vue.js正式发布&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2015年10月27日，正式发布1.0.0&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2016年4月27日，发布2.0的预览版本&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-vue渐进式javascript框架&quot;&gt;2. Vue–渐进式JavaScript框架&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;声明式渲染-&amp;gt;组件系统-&amp;gt;客户端路由-&amp;gt;集中式状态管理-&amp;gt;项目构建&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;可以认为一个库或者一个框架&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;3-vue代码的运行原理&quot;&gt;3. Vue代码的运行原理&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;编译过程（由Vue框架编译）：Vue语法-&amp;gt;原生的语法&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;4-mvvm设计思想&quot;&gt;4. MVVM设计思想&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;M–model&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;V–view&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;VM–View-Model&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Sandy</name></author><summary type="html">1. Vue.js的创建者–尤雨溪 2014年2月，Vue.js正式发布</summary></entry><entry><title type="html">Damned girl Encyclopedia</title><link href="http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/" rel="alternate" type="text/html" title="Damned girl Encyclopedia" /><published>2020-03-26T00:00:00+00:00</published><updated>2020-03-26T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia</id><content type="html" xml:base="http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/">&lt;p&gt;Damned girl Encyclopedia who was born in Japan on August 9 2016.Chinese name is 「骂倒少女」.
 First published in KADOKAWA&lt;/p&gt;
 
 &lt;p&gt;罵倒され罵倒する男女の関係を描いた話題作が、ついに書籍化!&lt;/p&gt;
@@ -12,13 +133,10 @@ First published in KADOKAWA&lt;/p&gt;
 &lt;p&gt;The first time i saw her in zhihu,but i am sorry that i knewn her name just few days ago!!! I use her as an avator of github!!! Just she is beautiful and i feel  she is speacial girl
 &lt;img src=&quot;/images/posts/film/damned-girl-encyclopedia/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;3-more-story&quot;&gt;3. more story&lt;/h2&gt;
+&lt;h2 id=&quot;3-more-story&quot;&gt;3. More story&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://baijiahao.baidu.com/s?id=1600330807299784186&amp;amp;wfr=spider&amp;amp;for=pc&quot;&gt;https://baijiahao.baidu.com/s?id=1600330807299784186&amp;amp;wfr=spider&amp;amp;for=pc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Sandy</name></author><summary type="html">Damned girl Encyclopedia who was born in Japan on August 9 2016.Chinese name is 「骂倒少女」. First published in KADOKAWA</summary></entry><entry><title type="html">CSS中对盒子模型的理解</title><link href="http://localhost:4000/2020/03/16/css-box-model/" rel="alternate" type="text/html" title="CSS中对盒子模型的理解" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/16/css-box-model</id><content type="html" xml:base="http://localhost:4000/2020/03/16/css-box-model/">&lt;p&gt;盒子模型，对于不同浏览器是有差异的，理解这些差异对于适配浏览器有很大的帮助。
-盒子模型，也是面试的时候常问的问题。&lt;/p&gt;
-
-&lt;h2 id=&quot;1-先占坑后面再写&quot;&gt;1. 先占坑后面再写&lt;/h2&gt;</content><author><name>Sandy</name></author><summary type="html">盒子模型，对于不同浏览器是有差异的，理解这些差异对于适配浏览器有很大的帮助。 盒子模型，也是面试的时候常问的问题。</summary></entry><entry><title type="html">CSS中的float（浮动）的用法</title><link href="http://localhost:4000/2020/03/16/css-float/" rel="alternate" type="text/html" title="CSS中的float（浮动）的用法" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/16/css-float</id><content type="html" xml:base="http://localhost:4000/2020/03/16/css-float/">&lt;p&gt;在CSS中，有三种方式可以脱离文档流（float、absolute、fixed），float就是其中的一种。它会使元素漂浮起来了一样。
+&lt;/ul&gt;</content><author><name>Sandy</name></author><summary type="html">Damned girl Encyclopedia who was born in Japan on August 9 2016.Chinese name is 「骂倒少女」. First published in KADOKAWA</summary></entry><entry><title type="html">CSS中的float（浮动）的用法</title><link href="http://localhost:4000/2020/03/16/css-float/" rel="alternate" type="text/html" title="CSS中的float（浮动）的用法" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/16/css-float</id><content type="html" xml:base="http://localhost:4000/2020/03/16/css-float/">&lt;p&gt;在CSS中，有三种方式可以脱离文档流（float、absolute、fixed），float就是其中的一种。它会使元素漂浮起来了一样。
 absolute和fixed是属于定位（position）的属性，下一篇文章会介绍。&lt;/p&gt;
 
 &lt;h2 id=&quot;标准文档流&quot;&gt;标准文档流&lt;/h2&gt;
@@ -64,7 +182,10 @@ absolute和fixed是属于定位（position）的属性，下一篇文章会介�
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/opt1997/article/details/100064348&quot;&gt;https://blog.csdn.net/opt1997/article/details/100064348&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Sandy</name></author><summary type="html">在CSS中，有三种方式可以脱离文档流（float、absolute、fixed），float就是其中的一种。它会使元素漂浮起来了一样。 absolute和fixed是属于定位（position）的属性，下一篇文章会介绍。</summary></entry><entry><title type="html">在position属性中的绝对定位和相对定位的理解</title><link href="http://localhost:4000/2020/03/16/css-positionig/" rel="alternate" type="text/html" title="在position属性中的绝对定位和相对定位的理解" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/16/css-positionig</id><content type="html" xml:base="http://localhost:4000/2020/03/16/css-positionig/">&lt;h2 id=&quot;1-先占坑后面再写挺不错的一部英剧&quot;&gt;1. 先占坑后面再写，挺不错的一部英剧&lt;/h2&gt;</content><author><name>Sandy</name></author><summary type="html">1. 先占坑后面再写，挺不错的一部英剧</summary></entry><entry><title type="html">talk about Sex.Education season 1</title><link href="http://localhost:4000/2020/03/15/film-sex-education-season-one/" rel="alternate" type="text/html" title="talk about Sex.Education season 1" /><published>2020-03-15T00:00:00+00:00</published><updated>2020-03-15T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/15/film-sex-education-season-one</id><content type="html" xml:base="http://localhost:4000/2020/03/15/film-sex-education-season-one/">&lt;p&gt;FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Sandy</name></author><summary type="html">在CSS中，有三种方式可以脱离文档流（float、absolute、fixed），float就是其中的一种。它会使元素漂浮起来了一样。 absolute和fixed是属于定位（position）的属性，下一篇文章会介绍。</summary></entry><entry><title type="html">在position属性中的绝对定位和相对定位的理解</title><link href="http://localhost:4000/2020/03/16/css-positionig/" rel="alternate" type="text/html" title="在position属性中的绝对定位和相对定位的理解" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/16/css-positionig</id><content type="html" xml:base="http://localhost:4000/2020/03/16/css-positionig/">&lt;h2 id=&quot;1-先占坑后面再写挺不错的一部英剧&quot;&gt;1. 先占坑后面再写，挺不错的一部英剧&lt;/h2&gt;</content><author><name>Sandy</name></author><summary type="html">1. 先占坑后面再写，挺不错的一部英剧</summary></entry><entry><title type="html">CSS中对盒子模型的理解</title><link href="http://localhost:4000/2020/03/16/css-box-model/" rel="alternate" type="text/html" title="CSS中对盒子模型的理解" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/16/css-box-model</id><content type="html" xml:base="http://localhost:4000/2020/03/16/css-box-model/">&lt;p&gt;盒子模型，对于不同浏览器是有差异的，理解这些差异对于适配浏览器有很大的帮助。
+盒子模型，也是面试的时候常问的问题。&lt;/p&gt;
+
+&lt;h2 id=&quot;1-先占坑后面再写&quot;&gt;1. 先占坑后面再写&lt;/h2&gt;</content><author><name>Sandy</name></author><summary type="html">盒子模型，对于不同浏览器是有差异的，理解这些差异对于适配浏览器有很大的帮助。 盒子模型，也是面试的时候常问的问题。</summary></entry><entry><title type="html">talk about Sex.Education season 1</title><link href="http://localhost:4000/2020/03/15/film-sex-education-season-one/" rel="alternate" type="text/html" title="talk about Sex.Education season 1" /><published>2020-03-15T00:00:00+00:00</published><updated>2020-03-15T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/15/film-sex-education-season-one</id><content type="html" xml:base="http://localhost:4000/2020/03/15/film-sex-education-season-one/">&lt;p&gt;FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。&lt;/p&gt;
 
 &lt;h2 id=&quot;1-先占坑后面再写挺不错的一部英剧&quot;&gt;1. 先占坑后面再写，挺不错的一部英剧&lt;/h2&gt;
 
@@ -82,41 +203,7 @@ absolute和fixed是属于定位（position）的属性，下一篇文章会介�
 &lt;img src=&quot;/images/posts/film/sex-education/14.webp&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;/images/posts/film/sex-education/15.webp&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;/images/posts/film/sex-education/16.webp&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/images/posts/film/sex-education/17.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Sandy</name></author><summary type="html">FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。</summary></entry><entry><title type="html">.gitignore让git推送时候忽略不必要推送的文件</title><link href="http://localhost:4000/2020/03/12/add-gitignore/" rel="alternate" type="text/html" title=".gitignore让git推送时候忽略不必要推送的文件" /><published>2020-03-12T00:00:00+00:00</published><updated>2020-03-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/12/add-gitignore</id><content type="html" xml:base="http://localhost:4000/2020/03/12/add-gitignore/">&lt;p&gt;在使用git时候，往往会忽略某些不必要推送的文件，如何如何配置呢？.gitignore又该如何使用呢?&lt;/p&gt;
-
-&lt;h2 id=&quot;1-到项目的根目录下新建gitignore文件&quot;&gt;1. 到项目的根目录下新建.gitignore文件&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Windows下可以先右键，启动Git Bash Here&lt;/p&gt;
-  &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;touch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gitignore&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;2-编辑gitignore文件&quot;&gt;2. 编辑.gitignore文件&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;添加要忽略的文件&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;nx&quot;&gt;target&lt;/span&gt;          &lt;span class=&quot;c1&quot;&gt;//忽略这个target目录&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;//忽略这个angular.json文件&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*           //忽略log下的所有文件
-css/*.css       //忽略css目录下的.css文件
-
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;比如我要忽略Gemfile.lock&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;Gemfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lock&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;执行命令查看是否已经忽略该文件&lt;/p&gt;
-  &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/git/gitignore1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Sandy</name></author><summary type="html">在使用git时候，往往会忽略某些不必要推送的文件，如何如何配置呢？.gitignore又该如何使用呢?</summary></entry><entry><title type="html">启动jekyll服务报错：Could not find gem ‘github-pages’</title><link href="http://localhost:4000/2020/03/12/start-jekyll-error/" rel="alternate" type="text/html" title="启动jekyll服务报错：Could not find gem 'github-pages'" /><published>2020-03-12T00:00:00+00:00</published><updated>2020-03-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/12/start-jekyll-error</id><content type="html" xml:base="http://localhost:4000/2020/03/12/start-jekyll-error/">&lt;p&gt;在搭建自己的博客的时候，想在本地启动工程，
+&lt;img src=&quot;/images/posts/film/sex-education/17.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Sandy</name></author><summary type="html">FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。</summary></entry><entry><title type="html">启动jekyll服务报错：Could not find gem ‘github-pages’</title><link href="http://localhost:4000/2020/03/12/jekyll-start-jekyll-error/" rel="alternate" type="text/html" title="启动jekyll服务报错：Could not find gem 'github-pages'" /><published>2020-03-12T00:00:00+00:00</published><updated>2020-03-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/12/jekyll-start-jekyll-error</id><content type="html" xml:base="http://localhost:4000/2020/03/12/jekyll-start-jekyll-error/">&lt;p&gt;在搭建自己的博客的时候，想在本地启动工程，
 在ruby和gem包都安装好后，
 尝试进行jekyll的安装和启动，执行bundle install时候遇到了Could not find gem ‘github-pages’错误&lt;/p&gt;
 
@@ -155,7 +242,7 @@ css/*.css       //忽略css目录下的.css文件
   &lt;p&gt;再尝试启动&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;jekyll1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;/images/posts/git/jekyll1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;5-分析&quot;&gt;5. 分析&lt;/h2&gt;
@@ -171,4 +258,38 @@ css/*.css       //忽略css目录下的.css文件
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/u012954706/article/details/83309689&quot;&gt;https://blog.csdn.net/u012954706/article/details/83309689&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Sandy</name></author><summary type="html">在搭建自己的博客的时候，想在本地启动工程， 在ruby和gem包都安装好后， 尝试进行jekyll的安装和启动，执行bundle install时候遇到了Could not find gem ‘github-pages’错误</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Sandy</name></author><summary type="html">在搭建自己的博客的时候，想在本地启动工程， 在ruby和gem包都安装好后， 尝试进行jekyll的安装和启动，执行bundle install时候遇到了Could not find gem ‘github-pages’错误</summary></entry><entry><title type="html">.gitignore让git推送时候忽略不必要推送的文件</title><link href="http://localhost:4000/2020/03/12/git-add-gitignore/" rel="alternate" type="text/html" title=".gitignore让git推送时候忽略不必要推送的文件" /><published>2020-03-12T00:00:00+00:00</published><updated>2020-03-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/12/git-add-gitignore</id><content type="html" xml:base="http://localhost:4000/2020/03/12/git-add-gitignore/">&lt;p&gt;在使用git时候，往往会忽略某些不必要推送的文件，如何如何配置呢？.gitignore又该如何使用呢?&lt;/p&gt;
+
+&lt;h2 id=&quot;1-到项目的根目录下新建gitignore文件&quot;&gt;1. 到项目的根目录下新建.gitignore文件&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Windows下可以先右键，启动Git Bash Here&lt;/p&gt;
+  &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;touch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gitignore&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-编辑gitignore文件&quot;&gt;2. 编辑.gitignore文件&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;添加要忽略的文件&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nx&quot;&gt;target&lt;/span&gt;          &lt;span class=&quot;c1&quot;&gt;//忽略这个target目录&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;//忽略这个angular.json文件&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*           //忽略log下的所有文件
+css/*.css       //忽略css目录下的.css文件
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;比如我要忽略Gemfile.lock&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;Gemfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lock&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;执行命令查看是否已经忽略该文件&lt;/p&gt;
+  &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/git/gitignore1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Sandy</name></author><summary type="html">在使用git时候，往往会忽略某些不必要推送的文件，如何如何配置呢？.gitignore又该如何使用呢?</summary></entry></feed>

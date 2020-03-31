@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2020/03/12/add-gitignore/</loc>
+<loc>http://localhost:4000/2020/03/12/git-add-gitignore/</loc>
+<lastmod>2020-03-12T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2020/03/12/jekyll-start-jekyll-error/</loc>
 <lastmod>2020-03-12T00:00:00+00:00</lastmod>
 </url>
 <url>
@@ -33,8 +37,16 @@
 <lastmod>2020-03-26T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/03/31/git-command/</loc>
+<lastmod>2020-03-31T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2020/03/31/vue-about/</loc>
+<lastmod>2020-03-31T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/wiki/template/</loc>
-<lastmod>2020-03-26T17:12:10+00:00</lastmod>
+<lastmod>2020-03-31T16:57:08+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -59,5 +71,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/wiki/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>

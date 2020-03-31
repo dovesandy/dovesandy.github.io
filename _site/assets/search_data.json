@@ -70,13 +70,22 @@
   
   
   
+  
+  
 
   
     {
       "title"    : ".gitignore让git推送时候忽略不必要推送的文件",
       "category" : "Git",
       
-      "url"      : "http://localhost:4000/2020/03/12/add-gitignore/"
+      "url"      : "http://localhost:4000/2020/03/12/git-add-gitignore/"
+    } ,
+  
+    {
+      "title"    : "启动jekyll服务报错：Could not find gem &#39;github-pages&#39;",
+      "category" : "Git",
+      
+      "url"      : "http://localhost:4000/2020/03/12/jekyll-start-jekyll-error/"
     } ,
   
     {
@@ -126,6 +135,20 @@
       "category" : "Film",
       
       "url"      : "http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/"
+    } ,
+  
+    {
+      "title"    : "Git的常用命令记录",
+      "category" : "Git",
+      
+      "url"      : "http://localhost:4000/2020/03/31/git-command/"
+    } ,
+  
+    {
+      "title"    : "Vue的了解",
+      "category" : "Vue",
+      
+      "url"      : "http://localhost:4000/2020/03/31/vue-about/"
     } ,
   
     {

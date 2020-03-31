@@ -2,8 +2,8 @@
   url: http://mazhuang.org
   src: life
 
-- name: Connie 酱
-  url: https://connie99.github.io
+- name: Hux Blog
+  url: http://huangxuan.me/
   src: life
 
 - name: 只宁静不致远
@@ -53,3 +53,10 @@
 - name: HwiLu's 博客
   url: https://hwilu.github.io/
   src: www
+
+- name: Ruby On Rails
+  url: https://ruby-china.github.io/rails-guides/?nsukey=6cIfZwa%2FHKTn2xK6zTOp6GYa47pDLXc4q1pB7sy%2B0HkHMS%2FK5SREslKuHnu4dCQyK9h9aab9uImnJisBDY9YUwMaSCHlsDNvykhvFl70IOsXz%2FexHugU9yPAf%2FCokOd%2BWB1PiSodkAQiQMJlaeS4tERdcbz64OkzVB9jJnYTKGU%3D
+  src: www
+  
+
+
