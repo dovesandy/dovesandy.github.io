@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-31T16:57:08+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog Of Sandy</title><subtitle>Sandy个人博客</subtitle><author><name>Sandy</name></author><entry><title type="html">Git的常用命令记录</title><link href="http://localhost:4000/2020/03/31/git-command/" rel="alternate" type="text/html" title="Git的常用命令记录" /><published>2020-03-31T00:00:00+00:00</published><updated>2020-03-31T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/31/git-command</id><content type="html" xml:base="http://localhost:4000/2020/03/31/git-command/">&lt;p&gt;记录一些常用的Git 常用的命令&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-02T17:09:49+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog Of Sandy</title><subtitle>Sandy个人博客</subtitle><author><name>Sandy</name></author><entry><title type="html">2019年6月8日上海Vue Conf–尤雨溪谈Vue3.0概要</title><link href="http://localhost:4000/2020/04/01/vue-conf/" rel="alternate" type="text/html" title="2019年6月8日上海Vue Conf--尤雨溪谈Vue3.0概要" /><published>2020-04-01T00:00:00+00:00</published><updated>2020-04-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/04/01/vue-conf</id><content type="html" xml:base="http://localhost:4000/2020/04/01/vue-conf/">&lt;p&gt;没有到现场观看，只是在油管上观看而已，然后做些笔记和谈一下自己的感想。以前没有看过类似的技术分享会，
+现在第一次完整技术类，总体感觉&lt;/p&gt;
+
+&lt;h2 id=&quot;1-发展现状&quot;&gt;1. 发展现状&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;概要：列举了Crome DevTools、npm、Jsdelivr CSDN、GitHub stars活跃状况，总体发展趋势是非常好的，但是与React用户量相比较还是有一定的差距的&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;自己的感想：当一门语言或者框架的发展，肯定与用户量相关联的。用户量越多，一方面可以说明该语言或者框架很受欢迎，一方面对于这门语言或者框架的社区和生态也是日臻完善。感触最深的Ruby语言，作为一门解释型语言。由松本行弘在1993年研发，19995年12月发行第一个版本Ruby 0.95版本。在2004年7月，由26岁的丹麦人David Heinemeier Hansson 研发的rails框架后，两者相铺相成。2006-2008也是非常流行的。可惜现在中国真的很少人用，在Ruby China上活跃的人数也非常少。目前来说Ruby真的很香，非常轻巧。但是不管怎样，得先在某一领域让自己发展起来，对于前端，主修Vue.js.也是非常看好Vue.js。对于大佬们非常敬佩。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-全球化的影响力&quot;&gt;2. 全球化的影响力&lt;/h2&gt;
+
+&lt;h2 id=&quot;3-良好的反馈&quot;&gt;3. 良好的反馈&lt;/h2&gt;
+
+&lt;h2 id=&quot;4-团队&quot;&gt;4. 团队&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;概要：20人的活跃核心团队
+感想：向大佬们递茶就完事了，哈哈哈&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;5-vuejs-30进展&quot;&gt;5. Vue.js 3.0进展&lt;/h2&gt;
+
+&lt;h2 id=&quot;6-回顾30设计目标&quot;&gt;6. 回顾3.0设计目标&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;概要：更小、更快、加强TypeScript支持、加强API设计一致性、提高自身可维护性、开放更多底层功能&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;7-如何更快超过6倍的提升&quot;&gt;7. 如何更快？（超过6倍的提升）&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;概要：Proxy数据侦测、Virtual DOM重构、更多编译优化
+传统的vdom的性能瓶颈：虽然Vue能够保证触发更新的组件最小化，但是在单个组件内部依然需要遍历该组件的整个vdom树。
+新策略将vdom更新性能由与模版调整大小相关提升为与动态内容数量相关。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;8-class-api已经被抛弃&quot;&gt;8. Class API已经被抛弃&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;概要：原本目的是为了更好的TS支持，新的代替方案是Funtion-based API&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;关于Function-based Component API 在GitHub上的讨论：&lt;a href=&quot;https://baijiahao.baidu.com/s?id=1600330807299784186&amp;amp;wfr=spider&amp;amp;for=pc&quot;&gt;https://baijiahao.baidu.com/s?id=1600330807299784186&amp;amp;wfr=spider&amp;amp;for=pc&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;B站视频链接：&lt;a href=&quot;https://www.bilibili.com/video/BV1U4411A7ge?t=61&quot;&gt;https://www.bilibili.com/video/BV1U4411A7ge?t=61&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Sandy</name></author><summary type="html">没有到现场观看，只是在油管上观看而已，然后做些笔记和谈一下自己的感想。以前没有看过类似的技术分享会， 现在第一次完整技术类，总体感觉</summary></entry><entry><title type="html">Vue的了解</title><link href="http://localhost:4000/2020/03/31/vue-about/" rel="alternate" type="text/html" title="Vue的了解" /><published>2020-03-31T00:00:00+00:00</published><updated>2020-03-31T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/31/vue-about</id><content type="html" xml:base="http://localhost:4000/2020/03/31/vue-about/">&lt;h2 id=&quot;1-vuejs的创建者尤雨溪&quot;&gt;1. Vue.js的创建者–尤雨溪&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2014年2月，Vue.js正式发布&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2015年10月27日，正式发布1.0.0&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2016年4月27日，发布2.0的预览版本&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-vue渐进式javascript框架&quot;&gt;2. Vue–渐进式JavaScript框架&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;声明式渲染-&amp;gt;组件系统-&amp;gt;客户端路由-&amp;gt;集中式状态管理-&amp;gt;项目构建&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;可以认为一个库或者一个框架&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;3-vue代码的运行原理&quot;&gt;3. Vue代码的运行原理&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;编译过程（由Vue框架编译）：Vue语法-&amp;gt;原生的语法&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;4-mvvm设计思想&quot;&gt;4. MVVM设计思想&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;M–model&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;V–view&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;VM–View-Model&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Sandy</name></author><summary type="html">1. Vue.js的创建者–尤雨溪 2014年2月，Vue.js正式发布</summary></entry><entry><title type="html">Git的常用命令记录</title><link href="http://localhost:4000/2020/03/31/git-command/" rel="alternate" type="text/html" title="Git的常用命令记录" /><published>2020-03-31T00:00:00+00:00</published><updated>2020-03-31T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/31/git-command</id><content type="html" xml:base="http://localhost:4000/2020/03/31/git-command/">&lt;p&gt;记录一些常用的Git 常用的命令&lt;/p&gt;
 
 &lt;h2 id=&quot;1-初始化本地仓库&quot;&gt;1. 初始化本地仓库&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -81,45 +167,7 @@ git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot
 
 &lt;span class=&quot;c&quot;&gt;# 推送到远程仓库&lt;/span&gt;
 git push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Sandy</name></author><summary type="html">记录一些常用的Git 常用的命令</summary></entry><entry><title type="html">Vue的了解</title><link href="http://localhost:4000/2020/03/31/vue-about/" rel="alternate" type="text/html" title="Vue的了解" /><published>2020-03-31T00:00:00+00:00</published><updated>2020-03-31T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/31/vue-about</id><content type="html" xml:base="http://localhost:4000/2020/03/31/vue-about/">&lt;h2 id=&quot;1-vuejs的创建者尤雨溪&quot;&gt;1. Vue.js的创建者–尤雨溪&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;2014年2月，Vue.js正式发布&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;2015年10月27日，正式发布1.0.0&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;2016年4月27日，发布2.0的预览版本&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;2-vue渐进式javascript框架&quot;&gt;2. Vue–渐进式JavaScript框架&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;声明式渲染-&amp;gt;组件系统-&amp;gt;客户端路由-&amp;gt;集中式状态管理-&amp;gt;项目构建&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;可以认为一个库或者一个框架&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;3-vue代码的运行原理&quot;&gt;3. Vue代码的运行原理&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;编译过程（由Vue框架编译）：Vue语法-&amp;gt;原生的语法&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;4-mvvm设计思想&quot;&gt;4. MVVM设计思想&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;M–model&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;V–view&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;VM–View-Model&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Sandy</name></author><summary type="html">1. Vue.js的创建者–尤雨溪 2014年2月，Vue.js正式发布</summary></entry><entry><title type="html">Damned girl Encyclopedia</title><link href="http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/" rel="alternate" type="text/html" title="Damned girl Encyclopedia" /><published>2020-03-26T00:00:00+00:00</published><updated>2020-03-26T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia</id><content type="html" xml:base="http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/">&lt;p&gt;Damned girl Encyclopedia who was born in Japan on August 9 2016.Chinese name is 「骂倒少女」.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Sandy</name></author><summary type="html">记录一些常用的Git 常用的命令</summary></entry><entry><title type="html">Damned girl Encyclopedia</title><link href="http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/" rel="alternate" type="text/html" title="Damned girl Encyclopedia" /><published>2020-03-26T00:00:00+00:00</published><updated>2020-03-26T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia</id><content type="html" xml:base="http://localhost:4000/2020/03/26/film-damned-girl-encyclopedia/">&lt;p&gt;Damned girl Encyclopedia who was born in Japan on August 9 2016.Chinese name is 「骂倒少女」.
 First published in KADOKAWA&lt;/p&gt;
 
 &lt;p&gt;罵倒され罵倒する男女の関係を描いた話題作が、ついに書籍化!&lt;/p&gt;
@@ -185,15 +233,7 @@ absolute和fixed是属于定位（position）的属性，下一篇文章会介�
 &lt;/ul&gt;</content><author><name>Sandy</name></author><summary type="html">在CSS中，有三种方式可以脱离文档流（float、absolute、fixed），float就是其中的一种。它会使元素漂浮起来了一样。 absolute和fixed是属于定位（position）的属性，下一篇文章会介绍。</summary></entry><entry><title type="html">在position属性中的绝对定位和相对定位的理解</title><link href="http://localhost:4000/2020/03/16/css-positionig/" rel="alternate" type="text/html" title="在position属性中的绝对定位和相对定位的理解" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/16/css-positionig</id><content type="html" xml:base="http://localhost:4000/2020/03/16/css-positionig/">&lt;h2 id=&quot;1-先占坑后面再写挺不错的一部英剧&quot;&gt;1. 先占坑后面再写，挺不错的一部英剧&lt;/h2&gt;</content><author><name>Sandy</name></author><summary type="html">1. 先占坑后面再写，挺不错的一部英剧</summary></entry><entry><title type="html">CSS中对盒子模型的理解</title><link href="http://localhost:4000/2020/03/16/css-box-model/" rel="alternate" type="text/html" title="CSS中对盒子模型的理解" /><published>2020-03-16T00:00:00+00:00</published><updated>2020-03-16T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/16/css-box-model</id><content type="html" xml:base="http://localhost:4000/2020/03/16/css-box-model/">&lt;p&gt;盒子模型，对于不同浏览器是有差异的，理解这些差异对于适配浏览器有很大的帮助。
 盒子模型，也是面试的时候常问的问题。&lt;/p&gt;
 
-&lt;h2 id=&quot;1-先占坑后面再写&quot;&gt;1. 先占坑后面再写&lt;/h2&gt;</content><author><name>Sandy</name></author><summary type="html">盒子模型，对于不同浏览器是有差异的，理解这些差异对于适配浏览器有很大的帮助。 盒子模型，也是面试的时候常问的问题。</summary></entry><entry><title type="html">talk about Sex.Education season 1</title><link href="http://localhost:4000/2020/03/15/film-sex-education-season-one/" rel="alternate" type="text/html" title="talk about Sex.Education season 1" /><published>2020-03-15T00:00:00+00:00</published><updated>2020-03-15T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/15/film-sex-education-season-one</id><content type="html" xml:base="http://localhost:4000/2020/03/15/film-sex-education-season-one/">&lt;p&gt;FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。&lt;/p&gt;
-
-&lt;h2 id=&quot;1-先占坑后面再写挺不错的一部英剧&quot;&gt;1. 先占坑后面再写，挺不错的一部英剧&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/film/sex-education/1.jpeg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/images/posts/film/sex-education/2.jpeg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/images/posts/film/sex-education/3.jpeg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/images/posts/film/sex-education/4.jpeg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/images/posts/film/sex-education/5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Sandy</name></author><summary type="html">FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。</summary></entry><entry><title type="html">talk about Sex.Education season 2</title><link href="http://localhost:4000/2020/03/15/film-sex-education-season-two/" rel="alternate" type="text/html" title="talk about Sex.Education season 2" /><published>2020-03-15T00:00:00+00:00</published><updated>2020-03-15T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/15/film-sex-education-season-two</id><content type="html" xml:base="http://localhost:4000/2020/03/15/film-sex-education-season-two/">&lt;p&gt;FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。&lt;/p&gt;
+&lt;h2 id=&quot;1-先占坑后面再写&quot;&gt;1. 先占坑后面再写&lt;/h2&gt;</content><author><name>Sandy</name></author><summary type="html">盒子模型，对于不同浏览器是有差异的，理解这些差异对于适配浏览器有很大的帮助。 盒子模型，也是面试的时候常问的问题。</summary></entry><entry><title type="html">talk about Sex.Education season 2</title><link href="http://localhost:4000/2020/03/15/film-sex-education-season-two/" rel="alternate" type="text/html" title="talk about Sex.Education season 2" /><published>2020-03-15T00:00:00+00:00</published><updated>2020-03-15T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/15/film-sex-education-season-two</id><content type="html" xml:base="http://localhost:4000/2020/03/15/film-sex-education-season-two/">&lt;p&gt;FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。&lt;/p&gt;
 
 &lt;h2 id=&quot;1-先占坑后面再写挺不错的一部英剧&quot;&gt;1. 先占坑后面再写，挺不错的一部英剧&lt;/h2&gt;
 
@@ -203,62 +243,15 @@ absolute和fixed是属于定位（position）的属性，下一篇文章会介�
 &lt;img src=&quot;/images/posts/film/sex-education/14.webp&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;/images/posts/film/sex-education/15.webp&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;/images/posts/film/sex-education/16.webp&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/images/posts/film/sex-education/17.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Sandy</name></author><summary type="html">FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。</summary></entry><entry><title type="html">启动jekyll服务报错：Could not find gem ‘github-pages’</title><link href="http://localhost:4000/2020/03/12/jekyll-start-jekyll-error/" rel="alternate" type="text/html" title="启动jekyll服务报错：Could not find gem 'github-pages'" /><published>2020-03-12T00:00:00+00:00</published><updated>2020-03-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/12/jekyll-start-jekyll-error</id><content type="html" xml:base="http://localhost:4000/2020/03/12/jekyll-start-jekyll-error/">&lt;p&gt;在搭建自己的博客的时候，想在本地启动工程，
-在ruby和gem包都安装好后，
-尝试进行jekyll的安装和启动，执行bundle install时候遇到了Could not find gem ‘github-pages’错误&lt;/p&gt;
+&lt;img src=&quot;/images/posts/film/sex-education/17.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Sandy</name></author><summary type="html">FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。</summary></entry><entry><title type="html">talk about Sex.Education season 1</title><link href="http://localhost:4000/2020/03/15/film-sex-education-season-one/" rel="alternate" type="text/html" title="talk about Sex.Education season 1" /><published>2020-03-15T00:00:00+00:00</published><updated>2020-03-15T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/15/film-sex-education-season-one</id><content type="html" xml:base="http://localhost:4000/2020/03/15/film-sex-education-season-one/">&lt;p&gt;FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。&lt;/p&gt;
 
-&lt;h2 id=&quot;1-前期准备&quot;&gt;1. 前期准备&lt;/h2&gt;
+&lt;h2 id=&quot;1-先占坑后面再写挺不错的一部英剧&quot;&gt;1. 先占坑后面再写，挺不错的一部英剧&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;安装ruby和gem
-安装jekyll&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;2-在自己的githubio项目路径下启动jekyll&quot;&gt;2. 在自己的github.io项目路径下启动jekyll&lt;/h2&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;3-提示的错误信息&quot;&gt;3. 提示的错误信息&lt;/h2&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;sr&quot;&gt;/Users/s&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;andy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;rvm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rubies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site_ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bundler&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resolver&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;rb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;287&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:in&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`block in verify_gemfile_dependencies_are_found!': Could not find gem 'github-pages' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)
-
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/git/jekyll1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-解决办法&quot;&gt;4. 解决办法&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;在工程路径下执行命令&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;再尝试启动&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/images/posts/git/jekyll1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;5-分析&quot;&gt;5. 分析&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;在执行bunle install时候可以执行两次，因为可能是网络问题造成的,Gemfile文件是用外国镜像的&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://rubygems.org'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'github-pages'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;group: :jekyll_plugins&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;6-参考链接&quot;&gt;6. 参考链接&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/u012954706/article/details/83309689&quot;&gt;https://blog.csdn.net/u012954706/article/details/83309689&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Sandy</name></author><summary type="html">在搭建自己的博客的时候，想在本地启动工程， 在ruby和gem包都安装好后， 尝试进行jekyll的安装和启动，执行bundle install时候遇到了Could not find gem ‘github-pages’错误</summary></entry><entry><title type="html">.gitignore让git推送时候忽略不必要推送的文件</title><link href="http://localhost:4000/2020/03/12/git-add-gitignore/" rel="alternate" type="text/html" title=".gitignore让git推送时候忽略不必要推送的文件" /><published>2020-03-12T00:00:00+00:00</published><updated>2020-03-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/12/git-add-gitignore</id><content type="html" xml:base="http://localhost:4000/2020/03/12/git-add-gitignore/">&lt;p&gt;在使用git时候，往往会忽略某些不必要推送的文件，如何如何配置呢？.gitignore又该如何使用呢?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/film/sex-education/1.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/images/posts/film/sex-education/2.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/images/posts/film/sex-education/3.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/images/posts/film/sex-education/4.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/images/posts/film/sex-education/5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Sandy</name></author><summary type="html">FBI warning!FBI warning!未满18岁的同学建议在大人陪同下观看。重要的事情说两遍！！！未满18岁的同学建议在大人陪同下观看。</summary></entry><entry><title type="html">.gitignore让git推送时候忽略不必要推送的文件</title><link href="http://localhost:4000/2020/03/12/git-add-gitignore/" rel="alternate" type="text/html" title=".gitignore让git推送时候忽略不必要推送的文件" /><published>2020-03-12T00:00:00+00:00</published><updated>2020-03-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/12/git-add-gitignore</id><content type="html" xml:base="http://localhost:4000/2020/03/12/git-add-gitignore/">&lt;p&gt;在使用git时候，往往会忽略某些不必要推送的文件，如何如何配置呢？.gitignore又该如何使用呢?&lt;/p&gt;
 
 &lt;h2 id=&quot;1-到项目的根目录下新建gitignore文件&quot;&gt;1. 到项目的根目录下新建.gitignore文件&lt;/h2&gt;
 &lt;blockquote&gt;
