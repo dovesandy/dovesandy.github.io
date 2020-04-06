@@ -157,7 +157,7 @@ $(document).ready(function(){
     } else {
       $('#post-directory-module').css({
         position: 'inherit',
-        width: 'inherit'
+        width: '100%'
       });
       $('.post-directory').css('overflow', 'hidden');
       $('.post-directory').scrollTop(0);
