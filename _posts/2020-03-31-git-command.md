@@ -66,6 +66,12 @@ git merge development
 # 先查看日志版本信息
 git log
 
+# 退出查看日志信息
+q
+
+# 查看某次推送的详细信息
+git show 8d8e5ccf24cf6836ab780aa3860270c3876e825
+
 # 退回到8d8e5ccf24cf6836ab780aa3860270c3876e825a版本
 git reset --hard 8d8e5ccf24cf6836ab780aa3860270c3876e825a
 
