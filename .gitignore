@@ -5,3 +5,4 @@
 # css/*.css       //忽略css目录下的.css文件
 /_site
 Gemfile.lock
+.DS_Store
