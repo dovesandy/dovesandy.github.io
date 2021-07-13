@@ -1,34 +1,45 @@
 ---
 layout: post
-title: 字符串最后一个单词的长度
+title: 计算字符串最后一个单词的长度
 categories: Examintion
 description: Examintion
 keywords: Examintion
 ---
 
+#### 牛客网-华为机试练习题 01 字符换最后一个单词的长度
 
-##1.HJ1 字符串最后一个单词的长度
-描述：
-计算字符串最后一个单词的长度，单词以空格隔开，字符串长度小于5000。
-输入描述：
+##### 题目描述
 
-输入一行，代表要计算的字符串，非空，长度小于5000。
-输出描述：
+计算字符串最后一个单词的长度，单词以空格隔开。 
 
-输出一个整数，表示输入字符串最后一个单词的长度。
+##### 输入描述:
+
+```
+一行字符串，非空，长度小于5000。
+```
+
+##### 输出描述:
+
+```
+整数N，最后一个单词的长度。
+```
+
 示例1
 
-输入：
-hello nowcoder
-复制
-输出：
-8
-复制
-说明：
-最后一个单词为nowcoder，长度为8
+输入
+
+```
+hello world
+```
+
+输出
+
+```
+5
+```
 
 
-
+### Java
 ```java
 import java.util.*;
 
@@ -43,6 +54,7 @@ public class Main{
 }
 ```
 
+### JavaScript
 ```JavaScript
 let arr = readline().trim().split(' ');
 let len = arr[arr.length - 1].length;
