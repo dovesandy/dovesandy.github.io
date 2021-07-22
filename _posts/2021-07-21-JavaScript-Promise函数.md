@@ -1,6 +1,6 @@
 ---
 layout: post
-title: promise函数
+title: Promise函数
 categories: JavaScript
 description: JavaScript
 keywords: JavaScript
