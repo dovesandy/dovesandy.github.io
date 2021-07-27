@@ -9,7 +9,25 @@ keywords: JavaScript
 ### 使用方括号加数字索引来访问字符串(类型于数组)
     
 ```javascript
-    console.log(str[1]);        // e 
+console.log(str[1]);        // e 
+```
+
+### includes() 方法用于判断字符串是否包含指定的子字符串
+注意：includes() 方法区分大小写。
+```javascript
+/*
+    searchvalue	必需，要查找的字符串。
+    start	可选，设置从那个位置开始查找，默认为 0。
+*/
+
+string.includes(searchvalue, start)
+var str = "Hello world, welcome to the Runoob.";
+var n = str.includes("world", 12);      // false
+var n = str.includes("world");          // true
+```
+    
+```javascript
+console.log(str[1]);        // e 
 ```
 
 ### charAt()和charCodeAt()
