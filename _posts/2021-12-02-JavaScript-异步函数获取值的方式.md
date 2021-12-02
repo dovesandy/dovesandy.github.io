@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 什么是Dom
+title: 异步函数获取值的方式
 categories: JavaScript
 description: JavaScript
 keywords: JavaScript
