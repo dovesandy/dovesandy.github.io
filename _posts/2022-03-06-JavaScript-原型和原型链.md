@@ -139,4 +139,7 @@ for(item in person1){
 }
 
 ```
-![原型链关系图](/images/posts/javascript/prototype.jpeg)
+![原型链关系图](/images/posts/javascript/prototype.jpeg "原型链关系图")
+
+[2022最新WEB前端面试题大汇总前端面试必备-哔哩哔哩](https://b23.tv/75WW8ZD)
+
