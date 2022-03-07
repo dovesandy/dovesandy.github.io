@@ -17,4 +17,4 @@ CSS盒子模型 又称框模型 (Box Model) ，由内而外包含了元素内容
 元素框的总宽度 = 元素（element）的width + padding的左边距和右边距的值 + margin的左边距和右边距的值 + border的左右宽度  
 元素框的总高度 = 元素（element）的height + padding的上下边距的值 + margin的上下边距的值 ＋ border的上下宽度
 
-
+[转载自：千与千寻*的盒子模型的理解](https://www.cnblogs.com/clearsky/p/5696286.html)
