@@ -12,13 +12,19 @@ keywords: Examintion
 JQuery和Vue的主要区别是JQuery主要是通过选择器来选取DOM，对其进行赋值，取值，事件绑定等操作，数据和页面是混合在一起的；Vue则是通过Vue对象将数据和视图完全分割开来，对数据进行操作，不再需要引用相应的DOM对象，实现了MVVM。
 
 ### 问题2：javascript数据基本类型有哪些？
-null、undefind、String、Boolean、Object、Number、Symbol
+1. null
+2. undefind
+3. string
+4. boolean
+5. 0bject
+6. number
+7. symbol
+8. bigInt
 
 ### 问题3：箭头函数与function函数的区别
 
 1、function函数与箭头函数的定义写法不同
 ```javascript
-
 function test(a,b){
     console.log(a,b)
 }
@@ -48,13 +54,10 @@ var obj = { aa: foo }
 foo() // Window
 
 obj.aa() // Window
-
-
 ```
 3、构造函数
 
 ```javascript
-
 // 使用function方法定艾构造函数
 function Person(name, age){
     this.name = name;
@@ -88,7 +91,7 @@ var lenhart = new Person('lenhart', 25); //Uncaught TypeError: Person is not a c
 
 ```html
 <div>
-    
+
 </div>
 ```
 
