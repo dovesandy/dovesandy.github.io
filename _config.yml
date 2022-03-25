@@ -4,10 +4,10 @@
 baseurl:
 url: https://dovesandy.github.io
 date_format: "ordinal"
-title: Blog Of Sandy
-subtitle: "Sandy想到月球看看奶奶"
+title: 逃离地球的Sandy
+subtitle: ""
 description: "Sandy个人博客"
-keywords: Sandy
+keywords: 逃离地球的Sandy,
 timezone: Asia/Guangzhou
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,7 +15,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Sandy
+author: DoveSandy
 organization: 
 organization_url: 
 github_username: dovesandy
