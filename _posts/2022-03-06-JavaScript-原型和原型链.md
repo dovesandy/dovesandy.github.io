@@ -20,7 +20,7 @@ function fn(){
 
 }
 
-fn.prototype.name = '小明‘
+fn.prototype.name = '小明'
 fn.prototype.fn2 = function(){
     console.log("1111")
 }
